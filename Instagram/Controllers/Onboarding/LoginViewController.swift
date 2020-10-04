@@ -145,20 +145,7 @@ class LoginViewController: UIViewController {
         view.addSubview(headerView)
     }
     
-    private func configureHeaderView() {
-//        guard headerView.subviews.count == 1 else {
-//            return
-//        }
-        
-//        guard let backgroundView = headerView.subviews.first else {
-//            return
-//        }
-        
-//        backgroundView.frame = headerView.bounds
-        
-//        let imageView = UIImageView(image: UIImage(named: "logo")?.withRenderingMode(.alwaysTemplate))
-//        logoView.tintColor = .white
-        
+    private func configureHeaderView() {        
         if traitCollection.userInterfaceStyle == .dark {
             logoView.tintColor = .white
         } else {
